@@ -1,0 +1,19 @@
+.listStyle li a {
+  color: #edf0f1;
+  list-style-type: none;
+  display: inline-block;
+}
+
+.navBarStyle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px, 10%;
+}
+
+.headerStyle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px, 10%;
+}
