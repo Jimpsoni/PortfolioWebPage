@@ -1,0 +1,15 @@
+.slider {
+    width: 16rem;
+    padding: 1.2rem;
+    margin-bottom: 0.7em;
+    text-align: center;
+    background: rgb(46,42,119);
+    background: linear-gradient(90deg, rgba(46,42,119,1) 0%, rgba(79,79,180,1) 31%, rgba(0,212,255,1) 100%);
+    border-radius: 5ch;
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.slider:hover {
+    background: rgb(94,201,222);
+}

@@ -47,14 +47,14 @@
   margin-left: 1em;
   margin-top: 1em;
   border-radius: 30%;
-  z-index: 5;
+  z-index: 10;
 }
 
 .image {
   position: relative;
   width: 100%;
   height: auto;
-  z-index: 6;
+  z-index: 11;
   border-radius: 30%;
 }
 

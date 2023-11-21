@@ -1,7 +1,10 @@
+import ContactMe from '../contactme'
 import './styles.css'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 
 const NavBar = () => {
+  const [modal, openModal] = useState()
+
   useEffect(() => {
     window.onscroll = () => {
       const elem = document.getElementById('navMain').style
@@ -18,7 +21,15 @@ const NavBar = () => {
     return () => (window.onscroll = null)
   }})
 
+  const openContactInfo = (event) => {
+    event.preventDefault()
+    openModal(!modal)
+  }
+
+
   return (
+    <>
+    <ContactMe open={modal} setOpen={openModal} />
     <header id='navMain'>
       <div className='navbarContainer'></div>
       <div id='headerContainer'>
@@ -26,10 +37,11 @@ const NavBar = () => {
       </div>
       <div className='buttonContainer'>
         <a href='./contact' id='link'>
-          <div id='contact-me-button'>Contact me</div>
+          <div id='contact-me-button' onClick={openContactInfo}>Contact me</div>
         </a>
       </div>
     </header>
+    </>
   )
 }
 
