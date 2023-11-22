@@ -4,12 +4,28 @@
     width: 100%;
     background-color: #e0dfaa;
     font-size: 1.2rem;
+    
 }
 
 #addressess {
     color: #02020e;
+    max-width: 400px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #addresslist {
     list-style-type: none;
+}
+
+.addressbar {
+    display: flex;
+    margin: 10px;
+}
+a {
+    text-decoration: none;
+    color: black
+}
+
+.icon {
+    margin-right: 5px;
 }

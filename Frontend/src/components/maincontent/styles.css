@@ -1,17 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:ital,wght@0,500;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
-#main {
+#aboutme {
   position: relative;
-  height: 1500px;
+  min-height: 90vh;
   width: 100%;
-
   display: flex;
   justify-content: center;
-  padding: 50px;
   font-family: 'Roboto', sans-serif;
   z-index: 1;
   background: #02020e;
 }
+
+#experince {
+  position: relative;
+  min-height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  z-index: 1;
+  background: rgb(2,2,14);
+  background: linear-gradient(180deg, rgba(2,2,14,1) 17%, rgba(69,69,186,1) 98%);
+}
+
 
 .section {
   width: 55%;
@@ -28,6 +41,7 @@
   padding: 0;
   font-size: 2.5rem;
   font-family: 'Oswald';
+  color: white;
 }
 
 .sectionText {
@@ -61,4 +75,33 @@
 #mainHeader {
   margin: 0.4em 0 0.2em 0;
   font-family: 'Oswald'
+}
+
+
+#firstpart {
+  padding-top: 15vh;
+  min-height: 90vh;
+
+}
+
+#secondpart {
+  background-color: #f8f7da;
+  color: black;
+  width: 100%;
+}
+
+
+
+
+@media (max-width:985px) { 
+  .sectionText {
+    text-align: center;
+  }
+  .section {
+    text-align: center;
+  }
+
+  .imageContainer {
+    width: 100%
+  }
 }

@@ -1,11 +1,11 @@
-import Slider from "./slider"
-import "./styles.css"
+import './styles.css'
 
 // eslint-disable-next-line react/prop-types
 const ContactMe = ({ open, setOpen }) => {
   if (!open) return
 
   const closeModal = () => {
+    
     setOpen(false)
   }
 
@@ -15,10 +15,10 @@ const ContactMe = ({ open, setOpen }) => {
       <div id='popup'>
         <h3>My Contact Info</h3>
         <div>
-          <Slider> Github </Slider>
-          <Slider> LinkedIn </Slider>
-          <Slider> Gmail </Slider>
-          <Slider> Phone </Slider>
+          <div id='github' className='slider'> Github </div>
+          <div id='linkedIn' className='slider'> LinkedIn </div>
+          <div id='gmail' className='slider'> Gmail </div>
+          <div id='phone' className='slider'> Phone </div>
         </div>
       </div>
     </>
