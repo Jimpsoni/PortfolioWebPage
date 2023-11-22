@@ -1,2 +1,2 @@
 # PortfolioWebPage
-This is my portfolio webpage
+My personal portfolio, still underconstruction
