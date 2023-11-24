@@ -16,22 +16,35 @@ const MainContent = () => {
             </p>
             <h2 className='subheading'>About me</h2>
             <p className='sectionText'>
-              I am 22 years old, I love to play disc golf and love to learn new
+              I am 22 years old, I love playing disc golf and love to learn new
               technologies. Currently tinkering with arduino projects
             </p>
           </div>
         </section>
       </div>
 
+      <div className='spacer layer1'></div>
+
       <div id='experince'>
-        <section className='section'>
-          <h2 className='subheading'>My Skills and projects</h2>
-          <p className='sectionText'>
+        <section className='whiteSection'>
+          <h2 className='subheading2'>My Skills and projects</h2>
+          <p className='whiteSectionText'>
             I&rsquo;m a passionate and creative full-stack developer with a
             focus on React and JavaScript. At 22, I&rsquo;ve already immersed
             myself in diverse projects, gaining hands-on experience in creating
             scalable and interactive web applications.
           </p>
+
+          <div id='projectCards'>
+            <div id='project'>
+              <img />
+              <p>This project taught me about robotics</p>
+            </div>
+            <div id='project'>
+            <img />
+              <p>This project taught me about robotics</p>
+            </div>
+          </div>
         </section>
       </div>
 
