@@ -68,8 +68,11 @@
   background-color: #f8f7da;
   font-size: 35px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+
+}
+
+.skillSection {
+  margin-right: 100px;
 }
 
 
@@ -78,7 +81,7 @@
   margin: 0;
   margin-bottom: 3em;
   color: #02020e;
-  text-align: center;
+  text-align: left;
   z-index: 3;
 }
 
@@ -94,12 +97,23 @@
   z-index: 10;
 }
 
+.descriptionText {
+  font-size: 1.3rem;
+  margin: 0 0 1em 0;
+}
+
+.skillHeader {
+  font-size: 2rem;
+  margin: 0;
+}
+
 .image {
   position: relative;
   width: 100%;
   height: auto;
   z-index: 11;
   border-radius: 30%;
+  box-shadow: 10px 5px 0px #f8f7da;
 }
 
 #mainHeader {
@@ -107,6 +121,14 @@
   font-family: 'Oswald'
 }
 
+#certifications {
+  margin: 0 0 1em 0;
+}
+
+.certification {
+  font-size: 1.3rem;
+  font-style: italic;
+}
 
 #firstpart {
   padding-top: 15vh;
