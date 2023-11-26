@@ -78,8 +78,7 @@
 
 .whiteSectionText {
   font-size: 0.8em;
-  margin: 0;
-  margin-bottom: 3em;
+  margin: 0 0 1em 0;
   color: #02020e;
   text-align: left;
   z-index: 3;
@@ -143,7 +142,16 @@
 }
 
 .spacer {
-  aspect-ratio: 960/540;
+  aspect-ratio: 960/300;
+  width: 100%;
+  height: 10%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.spacer2 {
+  aspect-ratio: 960/100;
   width: 100%;
   height: 10%;
   background-repeat: no-repeat;
@@ -155,6 +163,16 @@
   background-image: url('../../assets/layered-waves-haikei.svg');
 }
 
+.layer2 {
+  background-image: url('../../assets/wave-haikei.svg');
+}
+
+#jobexperience {
+  background-color: #02020e;
+}
+
+
+
 
 #projectCards {
   display: grid;
@@ -165,6 +183,14 @@
   background-color: #02020e;
   color: #f8f7da;
   font-size: 1rem;
+}
+
+.skill {
+  border: solid;
+  border-radius: 2%;
+  padding: 5px;
+  background-color:#f0b025;
+  margin-bottom: 0.5em;
 }
 
 
