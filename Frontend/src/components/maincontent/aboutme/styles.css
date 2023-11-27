@@ -1,0 +1,67 @@
+#aboutme {
+    position: relative;
+    min-height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    z-index: 1;
+    background: #02020e;
+}
+
+.section {
+    width: 55%;
+    min-height: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #02020e;
+    color: white;
+    font-size: 35px;
+}
+
+#firstpart {
+    padding-top: 15vh;
+    min-height: 90vh;
+}
+
+.image {
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 11;
+    border-radius: 30%;
+    box-shadow: 10px 5px 0px #f8f7da;
+}
+
+.imageContainer {
+    position: relative;
+    float: right;
+    max-width: 500px;
+    min-width: 288px;
+    width: 38%;
+    margin-left: 1em;
+    margin-top: 1em;
+    border-radius: 30%;
+    z-index: 10;
+}
+
+#mainHeader {
+    margin: 0.4em 0 0.2em 0;
+    font-family: 'Oswald'
+}
+
+.sectionText {
+    font-size: 0.8em;
+    margin: 0;
+    margin-bottom: 3em;
+    color: #f8f7da;
+    z-index: 3;
+}
+
+.subheading {
+    margin: 0;
+    padding: 0;
+    font-size: 2.5rem;
+    font-family: 'Oswald';
+    color: white;
+}

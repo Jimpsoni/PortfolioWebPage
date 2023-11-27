@@ -1,0 +1,23 @@
+#jobexperience {
+    background-color: #02020e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.date {
+    color: #ffffff;
+    font-family: 'Courier New', Courier;
+}
+
+.job {
+    width: 33%;
+}
+
+.jobheader {
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+    font-family: 'Oswald';
+    color: white;
+}
