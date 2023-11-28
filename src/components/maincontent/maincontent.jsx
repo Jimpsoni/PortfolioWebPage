@@ -1,4 +1,4 @@
-import Jobexperience from './Jobexperience'
+import Jobexperience from './jobexperience'
 import AboutMe from './aboutme'
 import Projects from './projects/projects'
 import './styles.css'
