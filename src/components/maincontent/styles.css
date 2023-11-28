@@ -96,12 +96,17 @@
   background-image: url('../../assets/wave-haikei.svg');
 }
 
+.layer3 {
+  background-image: url('../../assets/wave-haikei (3).svg');
+}
+
 .skill {
   border: solid;
+  border-color: #575752;
   border-radius: 25px;
   padding: 15px;
   /*background-color:#fdd47b;*/
-  background-color: #eeeeee;
+  background-color: #D2D1BA;
   margin-bottom: 0.5em;
 }
 

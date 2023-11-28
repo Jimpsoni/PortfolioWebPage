@@ -111,6 +111,8 @@ const MainContent = () => {
 
       <Jobexperience />
       <Projects />
+
+      <div className='spacer2 layer3'></div>
     </>
   )
 }
