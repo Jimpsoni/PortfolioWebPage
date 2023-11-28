@@ -39,7 +39,7 @@
   max-width: 500px;
   min-width: 288px;
   width: 38%;
-  margin-left: 1em;
+  margin-left: 2em;
   margin-top: 1em;
   border-radius: 30%;
   z-index: 10;
@@ -74,10 +74,11 @@
 
 @media (max-width: 544px) {
   .imageContainer {
+    width: 100%;
     min-width: 0px;
     max-width: 350px;
-    margin-top: 0;
     float:none;
+    margin: 0;
   }
 
   #mainHeader {

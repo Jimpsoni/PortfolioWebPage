@@ -1,10 +1,9 @@
 #mainFooter {
     position: relative;
     padding: 2em 2em 2em 4em;
-    width: 100%;
     background-color: #f8f7da;
     font-size: 1.2rem;
-    
+    margin: 0;
 }
 
 #addressess {
@@ -21,6 +20,7 @@
     display: flex;
     margin: 10px;
 }
+
 a {
     text-decoration: none;
     color: black
@@ -28,4 +28,14 @@ a {
 
 .icon {
     margin-right: 5px;
+}
+
+@media (max-width: 544px) {
+    #mainFooter {
+        font-size: 0.8rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 2em 2em 2em 0;
+    }
 }
