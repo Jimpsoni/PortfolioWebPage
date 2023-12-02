@@ -1,7 +1,7 @@
-import Jobexperience from './jobexperience'
-import AboutMe from './aboutme'
-import Projects from './projects/projects'
-import './styles.css'
+import Jobexperience from "./jobexperience"
+import AboutMe from "./aboutme"
+import Projects from "./projects/projects"
+import "./styles.css"
 
 const MainContent = () => {
   return (
@@ -46,7 +46,7 @@ const MainContent = () => {
                 While I&rsquo;ve done Freecodecamp certifications for
                 JavaScript, HTML and CSS in the past, the Mooc took things
                 deeper and I learned to build applications with <b>React</b>.
-                The course also taught <b>React state managment</b>,{' '}
+                The course also taught <b>React state managment</b>,{" "}
                 <b>GraphQL</b>, <b>Typescript</b> and <b>CI/CD</b>. Here is some
                 of the certifications I&rsquo;ve successfully completed:
               </p>
@@ -76,7 +76,7 @@ const MainContent = () => {
             </p>
 
             <div className='skill'>
-              <h3 className='skillHeader'>Teamwork</h3>
+              <h3 className='skillHeader'>Teamwork and collaboration</h3>
               <p className='descriptionText'>
                 From my time with Jyväsmuutot, I learned tons of crucial
                 teamwork skills. Carrying heavy sofas and pianos requires a lot
@@ -87,20 +87,21 @@ const MainContent = () => {
             </div>
 
             <div className='skill'>
-              <h3 className='skillHeader'>Communications</h3>
+              <h3 className='skillHeader'>Problem-Solving</h3>
               <p className='descriptionText'>
-                I&rsquo;ve wrote most of my lines using Python. Tons of small
-                personal projects and bigger projects for excercises left me
-                with a lot of knowledge
+                I started my programming journey as a self-learner and
+                encountered numerous challenges that demanded innovative
+                problem-solving. This lead me to become good problem-solver who
+                isn&rsquo;t scared of obsticles
               </p>
             </div>
 
             <div className='skill'>
-              <h3 className='skillHeader'>Good work morale</h3>
+              <h3 className='skillHeader'>Customer-Service</h3>
               <p className='descriptionText'>
-                I&rsquo;ve wrote most of my lines using Python. Tons of small
-                personal projects and bigger projects for excercises left me
-                with a lot of knowledge
+                There is nothing harder than keeping a big smile your face
+                after 10 hour shift of carrying boxes and furniture around, but I
+                still managed to do it everytime
               </p>
             </div>
           </div>
