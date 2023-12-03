@@ -1,4 +1,4 @@
-import './styles.css'
+import "./styles.css"
 
 const Projects = () => {
   return (
@@ -6,7 +6,6 @@ const Projects = () => {
       <h2 id='projectsHeader'>My Projects</h2>
       <div id='projectContainer'>
         <a className='project'>
-          
           <div className='thumbnailContainer'>
             <img
               className='projectImage'
@@ -22,22 +21,29 @@ const Projects = () => {
           </p>
         </a>
 
-        <a className='project' href='https://github.com/Jimpsoni/PortfolioWebPage'>
+        <a
+          className='project'
+          href='https://github.com/Jimpsoni/PortfolioWebPage'
+        >
           <div className='thumbnailContainer'>
             <img
               className='projectImage'
-              src='https://images.ctfassets.net/spoqsaf9291f/47eAIX9xm8lyuvBhzbsWJD/3999d42dd361206b4e04dc512a43f323/online-portfolio-alexander-noles-desktop.png'
+              src='https://i.imgur.com/vPPDEz7.png'
             />
           </div>
           <h3 className='projectHeader'>Personal Portfolio</h3>
           <p className='projectText'>
-            Taking no shortcuts, I really wanted a portfolio that would look
-            just like me. This project taught me a lot of Javascript, CSS and
-            HTML. Im really proud how it turned out
+            In developing my portfolio, I was committed to authenticity and a
+            reflection of my identity. I took no shortcuts with this project
+            because I wanted to look just like me. This project taught me a lot
+            of Javascript, CSS and HTML. Im really proud how it turned out
           </p>
         </a>
 
-        <a className='project' href='https://github.com/Jimpsoni/Kiekkorekisteri'>
+        <a
+          className='project'
+          href='https://github.com/Jimpsoni/Kiekkorekisteri'
+        >
           <div className='thumbnailContainer'>
             <img
               className='projectImage'

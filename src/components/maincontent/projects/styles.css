@@ -60,7 +60,8 @@
 
 .project:hover {
     transform:scale(1.09);
-    box-shadow: 10px 5px 0px #03201a;
+    box-shadow: 10px 5px 0px #f8f7da;
+    border: solid;
 }
 
 @media (max-width:544px) {
