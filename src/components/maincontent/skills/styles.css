@@ -1,0 +1,71 @@
+#skillSection {
+  background-color: #f8f7da;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+
+#skillContainer {
+  width: 60%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-row: auto auto;
+  gap: 2rem;
+}
+
+.skillTextContainer {
+  font-size: 1.2rem;
+}
+
+.linkToSkills {
+  background-color: rgb(7, 70, 126);
+  padding: 10px;
+  width: 100px;
+  color: white;
+  border-radius: 15px;
+}
+
+.gridImage {
+  width: 100%;
+  height: auto;
+  border-radius: 25px;
+}
+
+#textContainer1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#textContainer2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: right;
+}
+
+#container2 {
+}
+
+#container3 {
+}
+
+.skillHeader {
+  margin: 0;
+  font-size: 3rem;
+  color: #03031f;
+}
+
+.skillSubHeader {
+  font-size: 1.5rem;
+  margin: 0;
+  font-style: italic;
+}
+
+
+@media (max-width: 1270px) {
+  #skillContainer {
+    grid-template: row;
+  }
+}
