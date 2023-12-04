@@ -19,11 +19,25 @@
 }
 
 .linkToSkills {
-  background-color: rgb(7, 70, 126);
+  transition: all 0.25s;
+  background-color: rgb(1, 11, 17);
   padding: 10px;
   width: 100px;
   color: white;
   border-radius: 15px;
+}
+
+.linkToSkills:hover {
+  background-color: rgb(7, 70, 126);
+}
+
+@keyframes fadein {
+	from {
+		opacity:0;
+	}
+	to {
+		opacity:1;
+	}
 }
 
 .gridImage {

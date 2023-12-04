@@ -19,6 +19,7 @@
 }
 
 #overlay {
+    transition: all .5s;
     position: fixed;
     top: 0;
     left: 0;
@@ -29,8 +30,9 @@
     z-index: 1000;
     animation: fadeinOverlay .5s;
 }
-
+ 
 .slider {
+  transition: all 0.5s;
   width: 16rem;
   padding: 1.2rem;
   margin-bottom: 0.7em;

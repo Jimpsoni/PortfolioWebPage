@@ -16,7 +16,7 @@ const Skills = () => {
             engineering with Python and desktop apps with Java
           </p>
           <Link to='/skills'>
-            <span className="linkToSkills">
+            <span className="linkToSkills" style={{marginRight: '7px'}}>
             Learn more
             </span>
             on the &lsquo;skills&lsquo; page
@@ -50,7 +50,7 @@ const Skills = () => {
           </p>
           <Link to='/skills'>
             More on the &lsquo;skills&lsquo; page
-            <span className="linkToSkills">
+            <span className="linkToSkills" style={{marginLeft: '7px'}}>
             Learn more
             </span>
           </Link>

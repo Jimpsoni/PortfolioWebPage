@@ -1,6 +1,7 @@
 import ContactMe from '../contactme'
 import './styles.css'
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const NavBar = () => {
   const [modal, openModal] = useState()
@@ -8,7 +9,7 @@ const NavBar = () => {
   useEffect(() => {
     window.onscroll = () => {
       const elem = document.getElementById('navMain').style
-      const text = document.getElementById('headerContainer').style
+      const text = document.getElementById('navHeader').style
       if (window.scrollY === 0) {
         elem.background = '#02020e'
         text.color = '#f8f7da'
@@ -33,7 +34,7 @@ const NavBar = () => {
     <header id='navMain'>
       <div className='navbarContainer'></div>
       <div id='headerContainer'>
-        <h1 id='navHeader'>Jimi Jukkala</h1>
+        <Link to='/'><h1 id='navHeader'>Jimi Jukkala</h1></Link>
       </div>
       <div className='buttonContainer'>
         <a href='./contact' id='link'>

@@ -36,6 +36,10 @@
   font-size: 20px;
 }
 
+#navHeader {
+  color: #f8f7da
+}
+
 #headerContainer {
   transition:all 1s;
   display: flex;
@@ -43,7 +47,6 @@
   justify-content: center;
   font-size: 1.4rem;
   font-family: 'Grand Hotel', cursive;
-  color: #f8f7da
 }
 
 .buttonContainer {
