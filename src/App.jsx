@@ -1,6 +1,7 @@
 import "./App.css"
 import { useEffect } from "react"
 import { Routes, Route } from "react-router-dom"
+import { useLocation } from 'react-router-dom'
 
 // Components
 import NavBar from "./components/navbar"
@@ -20,9 +21,12 @@ const mainpage = (
 )
 
 function App() {
+  const { pathname } = useLocation()
+
+
   useEffect(() => {
     drawstars()
-  }, [])
+  }, [pathname])
 
   return (
     <>
