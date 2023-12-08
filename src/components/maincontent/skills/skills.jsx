@@ -9,7 +9,7 @@ const Skills = () => {
         <div id='textContainer1' className="skillTextContainer">
           <h2 className='skillHeader'>Technical Skills</h2>
           <h3 className='skillSubHeader'>Python, Javascript, MongoDB etc...</h3>
-          <p>
+          <p className='commonText'>
             I&lsquo;ve been programming since middleschool and have acquired a
             lot of knowlegde on the way. Starting with small projects with
             Python all the way to fullstack applications with JS, data
@@ -40,11 +40,11 @@ const Skills = () => {
         </div>
 
         <div id='textContainer2' className="skillTextContainer">
-          <h2 className='skillHeader'>Practical Skills</h2>
+          <h2 className='skillHeader'>Soft Skills</h2>
           <h3 className='skillSubHeader'>
             Teamwork, collaboration and problem solving
           </h3>
-          <p>
+          <p className='commonText'>
             I&lsquo;ve worked in 4 different companies and as a freelance, all
             of which have taught me a lot of valuable skills
           </p>

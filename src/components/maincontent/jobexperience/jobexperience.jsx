@@ -1,4 +1,4 @@
-import "./styles.css"
+import './styles.css'
 
 const Jobexperience = () => {
   return (
@@ -9,7 +9,10 @@ const Jobexperience = () => {
         <h2 className='jobheader'>Self-employed</h2>
         <p className='date'>03-2023 to Now</p>
         <p className='jobSectionText'>
-          Being my own boss has taught me so much about being independent.
+          Being my own boss has taught me all about discipline, scheduling and
+          to seek information on my own. Ive had the opportinity to work with
+          Jyväsmuutot as an independent contractor and learn valuable skills
+          about managing myself.
         </p>
       </div>
 
@@ -17,9 +20,11 @@ const Jobexperience = () => {
         <h2 className='jobheader'>Jyväsmuutot</h2>
         <p className='date'>07-2019 to 03-2023</p>
         <p className='jobSectionText'>
-          During my 4 years at there I learned customer service, to train new
-          employees, plan ahead, and to work together as a team even through
-          hardest days of work.
+          I worked as a mover at Jyväsmuutot, where I gained valuable experience
+          in various aspects of the job. My responsibilities included
+          efficiently packing and loading items onto the moving truck, ensuring
+          their safe transportation to the designated location. My
+          responsibilities also included training and guiding new employees.
         </p>
       </div>
 
@@ -27,7 +32,8 @@ const Jobexperience = () => {
         <h2 className='jobheader'>Paperboy</h2>
         <p className='date'>09-2017 to 09-2018</p>
         <p className='jobSectionText'>
-          Worked for one year, Really learned independent work from here
+          Worked for one year, the job was independent and you was responsible
+          for your own scheduling and work.
         </p>
       </div>
     </div>

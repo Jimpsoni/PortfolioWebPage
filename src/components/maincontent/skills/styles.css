@@ -1,6 +1,7 @@
 #skillSection {
   background-color: #f8f7da;
-  margin: 0;
+  margin: 0 0 0 0;
+  padding: 50px 0 50px 0;
   display: flex;
   justify-content: center;
   font-family: "Roboto", sans-serif;
@@ -10,11 +11,17 @@
   width: 60%;
   display: grid;
   grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
   grid-row: auto auto;
   gap: 2rem;
 }
 
 .skillTextContainer {
+  font-size: 1.2rem;
+}
+
+.commonText {
+  line-height: 1.5rem;
   font-size: 1.2rem;
 }
 
@@ -28,7 +35,8 @@
 }
 
 .linkToSkills:hover {
-  background-color: rgb(7, 70, 126);
+  background-color: rgb(236, 178, 17);
+  color: #02020e;
 }
 
 @keyframes fadein {
@@ -60,9 +68,17 @@
 }
 
 #container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
 }
 
 #container3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .skillHeader {
@@ -79,7 +95,39 @@
 
 
 @media (max-width: 1270px) {
+  #skillContainer  {
+    width: 80%;
+    grid-template-columns: 100%;
+    grid-template-rows: 25% 25% 25% 25%;
+    margin-bottom: 50px;
+  }
+
+  #textContainer1 {
+    text-align: center;
+  }
+  
+  #textContainer2 {
+    text-align: center;
+  }
+
+  .commonText {
+    font-size: 0.8rem ;
+    line-height: 1rem;
+  }
+
   #skillContainer {
-    grid-template: row;
+    font-size: 0.8rem;
+  }
+
+  .skillSubHeader {
+    font-size: 1rem;
+  }
+
+  #container3 {
+    order: 4;
+  }
+
+  .linkToSkills {
+    font-size: 0.8rem;
   }
 }

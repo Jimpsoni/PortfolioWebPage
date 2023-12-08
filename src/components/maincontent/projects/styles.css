@@ -12,6 +12,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #projectContainer {
@@ -21,14 +22,20 @@
 }
 
 .project {
+  position: relative;
   transition: all 0.5s;
+
   background-color: rgb(230, 230, 230);
   max-width: 20%;
+
   display: flex;
   flex-direction: column;
   align-items: center;
+
   border-radius: 28px;
   border: 2px solid;
+
+  padding-bottom: 40px;
 }
 
 .projectImage {
@@ -38,7 +45,6 @@
 
 .thumbnailContainer {
   max-width: 100%;
-  height: 40%;
   border-radius: 25px 25px 0 0;
   overflow: hidden;
 }
@@ -48,20 +54,28 @@
   color: #03201a;
   font-size: 1.5rem;
   margin: 25px 0 0 0;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .projectText {
   color: #021a14;
   padding: 0 25px 0 25px;
   font-size: 1.2rem;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 
 .project:hover {
     transform:scale(1.09);
     box-shadow: 10px 5px 0px #f8f7da;
+}
+
+.attributes {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding-left: 10px;
+  font-style: italic;
+  color: rgb(83, 83, 83);
 }
 
 @media (max-width:544px) {

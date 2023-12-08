@@ -1,4 +1,4 @@
-import "./styles.css"
+import './styles.css'
 
 const Projects = () => {
   return (
@@ -15,10 +15,10 @@ const Projects = () => {
           <h3 className='projectHeader'>Automatic Email Survey</h3>
           <p className='projectText'>
             I made an Automatic Email Survey for Jyväsmuutot using Python,
-            Google Cloud and Google calendar API. It fetches clients Emails from
-            Google calendar Jyväsmuutot uses and then with Mailchimp API it
-            sends clients surveys!
+            Google Cloud. It automatically fetched
+            clients email addressess from calendar and sends the survey everyday.
           </p>
+          <p className='attributes'>Google Cloud, Python</p>
         </a>
 
         <a
@@ -38,6 +38,7 @@ const Projects = () => {
             because I wanted to look just like me. This project taught me a lot
             of Javascript, CSS and HTML. Im really proud how it turned out
           </p>
+          <p className='attributes'>Javascript, HTML, CSS, React</p>
         </a>
 
         <a
@@ -55,6 +56,7 @@ const Projects = () => {
             This project was my Programming 2 courses practical work. It taught
             me about OOP and to structure projects.
           </p>
+          <p className='attributes'>Java</p>
         </a>
       </div>
     </div>
