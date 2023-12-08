@@ -6,7 +6,7 @@
 
   font-family: 'Roboto', sans-serif;
   background: #02020e;
-  min-height: 80vh;
+  min-height: 85vh;
 
   z-index: 1;
 }
@@ -115,7 +115,7 @@
   }
 
   .sectionText {
-    font-size: 0.6em;
+    font-size: 0.8em;
     margin-bottom: 1em;
   }
 

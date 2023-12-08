@@ -123,6 +123,10 @@
     font-size: 1rem;
   }
 
+  .skillHeader {
+    font-size: 1.7rem;
+  }
+
   #container3 {
     order: 4;
   }
