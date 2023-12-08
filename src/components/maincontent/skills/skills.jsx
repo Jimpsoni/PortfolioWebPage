@@ -1,5 +1,8 @@
 import "./styles.css"
 import { Link } from "react-router-dom"
+import image from '../../../assets/technicalskills.png'
+
+console.log(image)
 
 const Skills = () => {
   return (
@@ -27,7 +30,7 @@ const Skills = () => {
           <img
             className='gridImage'
             alt='image with computer on it'
-            src='https://media.gcflearnfree.org/content/5e31ca08bc7eff08e4063776_01_29_2020/ProgrammingIllustration.png'
+            src={image}
           />
         </div>
 
