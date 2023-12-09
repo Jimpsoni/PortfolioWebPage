@@ -1,0 +1,12 @@
+.skill-spacer {
+  aspect-ratio: 900/300;
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.skill-layer1 {
+  background-image: url("../../assets/layered-waves-haikei-skills.svg");
+}
