@@ -22,10 +22,9 @@
 .subheading2 {
   position: relative;
   margin: auto;
-  height: 1.4em;
+  height: 2em;
   margin: 0;
   padding: 0;
-  font-size: 2.5rem;
   font-family: "Oswald";
   color: white;
 }
@@ -147,7 +146,7 @@ input[type="radio"]:checked + label {
   }
 
   label {
-    font-size: 0.3em;
+    font-size: 0.4em;
     padding: 7px;
     margin-right: 8px;
   }
@@ -160,7 +159,7 @@ input[type="radio"]:checked + label {
 
   .subheading2 {
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 2rem;
   }
   .section {
     text-align: center;
@@ -175,7 +174,7 @@ input[type="radio"]:checked + label {
   }
 
   .skillPageHeader {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
   }
 
   .certification {
