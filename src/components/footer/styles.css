@@ -1,8 +1,3 @@
-#mainFooter {
-    background-color: #f8f7da;
-    color: #02020e;
-}
-
 #mainFooterSkills, #mainFooter {
     position: relative;
     padding: 2em 2em 2em 4em;
@@ -10,6 +5,11 @@
     color: #f8f7da;
     font-size: 1.2rem;
     margin: 0;
+}
+
+#mainFooter {
+    background-color: #f8f7da;
+    color: #02020e;
 }
 
 #addressess {
