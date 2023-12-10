@@ -1,0 +1,135 @@
+#layeredtext {
+  position: absolute;
+  font-family: "Oswald";
+  width: 100%;
+  z-index: 3;
+  top: 0;
+  left: 0;
+
+  animation: layeredtext2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+#layeredtext::before {
+  content: attr(data-text);
+  width: 100%;
+  text-align: left;
+  position: absolute;
+  color: transparent;
+  top: 0;
+  left: 0;
+  background-image: repeating-linear-gradient(
+    135deg,
+    transparent 0,
+    transparent 2px,
+    #ed0a8b 2px,
+    #ed0a8b 4px
+  );
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  z-index: -1;
+  -webkit-text-stroke: #ed0a8b;
+
+  animation: layeredtext1;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+#layeredtext::after {
+  content: attr(data-text);
+  position: absolute;
+  width: 100%;
+  text-align: left;
+  top: 0;
+  left: 0;
+  color: rgba(255, 255, 255, 0.2);
+  -webkit-text-stroke: 1px #fff;
+  animation: layeredtext;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+#layeredtext:hover::before {
+  top: 0.2em;
+  left: 0.2em;
+}
+
+#layeredtext:hover::after {
+  top: -0.2em;
+  left: -0.2em;
+}
+
+#layeredtext:hover {
+  color: #df9a07;
+}
+
+@keyframes layeredtext {
+  0% {
+    top: -0.2em;
+    left: -0.2em;
+  }
+  50% {
+    top: 0em;
+    left: 0em;
+  }
+
+  90% {
+    top: -0.2em;
+    left: -0.2em;
+  }
+
+  100% {
+    top: -0.2em;
+    left: -0.2em;
+  }
+}
+
+@keyframes layeredtext1 {
+  0% {
+    top: 0.2em;
+    left: 0.2em;
+  }
+  50% {
+    top: 0em;
+    left: 0em;
+  }
+
+  80% {
+    top: 0em;
+    left: 0em;
+  }
+
+  100% {
+    top: 0.2em;
+    left: 0.2em;
+  }
+}
+
+@keyframes layeredtext2 {
+  0% {
+    color: #df9a07;
+  }
+  50% {
+    color: #fff;
+  }
+
+  80% {
+    color: #fff;
+  }
+
+  100% {
+    color: #df9a07;
+  }
+}
+
+@media (max-width: 544px) {
+  #layeredtext::after {
+    text-align: center;
+  }
+
+  #layeredtext::before {
+    text-align: center;
+  }
+}

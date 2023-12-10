@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap");
 
 #navMain {
-  transition:all 0.5s;
+  transition: all 0.5s;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -22,7 +22,7 @@
   height: 50px;
   padding: 0 5px 0 5px;
   margin-right: 2em;
-  font-family: 'Oswald';
+  font-family: "Oswald";
   font-size: 1em;
 
   display: flex;
@@ -37,16 +37,16 @@
 }
 
 #navHeader {
-  color: #f8f7da
+  color: #f8f7da;
 }
 
 #headerContainer {
-  transition:all 1s;
+  transition: all 1s;
   display: flex;
   flex: 1;
   justify-content: center;
   font-size: 1.4rem;
-  font-family: 'Grand Hotel', cursive;
+  font-family: "Grand Hotel", cursive;
 }
 
 .buttonContainer {
@@ -60,7 +60,7 @@
 }
 
 @media (max-width: 544px) {
-  .buttonContainer{
+  .buttonContainer {
     display: none;
   }
   .navbarContainer {
@@ -76,5 +76,4 @@
   #navHeader {
     margin: 0;
   }
-  
 }

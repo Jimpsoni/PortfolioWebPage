@@ -93,13 +93,16 @@
   font-style: italic;
 }
 
-
-@media (max-width: 1270px) {
+@media (max-width: 800px) {
   #skillContainer  {
     width: 80%;
     grid-template-columns: 100%;
     grid-template-rows: 25% 25% 25% 25%;
     margin-bottom: 50px;
+  }
+
+  #container3 {
+    order: 4;
   }
 
   #textContainer1 {
@@ -110,6 +113,14 @@
     text-align: center;
   }
 
+  .linkContainer {
+    line-height: 1.5em;
+  }
+
+}
+
+
+@media (max-width: 1270px) {
   .commonText {
     font-size: 0.8rem ;
     line-height: 1rem;
@@ -127,11 +138,8 @@
     font-size: 1.7rem;
   }
 
-  #container3 {
-    order: 4;
-  }
-
   .linkToSkills {
     font-size: 0.8rem;
+    padding: 10px;
   }
 }

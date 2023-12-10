@@ -23,9 +23,8 @@ const mainpage = (
 function App() {
   const { pathname } = useLocation()
 
-
   useEffect(() => {
-    drawstars()
+    drawstars('aboutme')
   }, [pathname])
 
   return (

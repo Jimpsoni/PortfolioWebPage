@@ -1,12 +1,12 @@
 import { useEffect } from "react"
 import { useLocation } from 'react-router-dom'
 
-export const drawstars = () => {
+export const drawstars = (tagId) => {
     function random(min, max) {
       return min + Math.random() * (max + 1 - min)
     }
   
-    const elem = document.getElementById("aboutme")
+    const elem = document.getElementById(tagId)
     if (!elem) return
     const canvasSize = elem.offsetWidth * elem.offsetHeight
     const starsFraction = canvasSize / 20000
@@ -27,7 +27,7 @@ export const drawstars = () => {
       star.style.height = size + "px"
       star.style.backgroundColor = colour
       star.style.zIndex = 2
-      document.getElementById("aboutme").appendChild(star)
+      document.getElementById(tagId).appendChild(star)
     }
 }
 

@@ -1,13 +1,18 @@
 #mainFooter {
+    background-color: #f8f7da;
+    color: #02020e;
+}
+
+#mainFooterSkills, #mainFooter {
     position: relative;
     padding: 2em 2em 2em 4em;
-    background-color: #f8f7da;
+    background-color: #02020e;
+    color: #f8f7da;
     font-size: 1.2rem;
     margin: 0;
 }
 
 #addressess {
-    color: #02020e;
     max-width: 400px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -31,7 +36,7 @@ a {
 }
 
 @media (max-width: 544px) {
-    #mainFooter {
+    #mainFooter, #mainFooterSkills {
         font-size: 0.8rem;
         display: flex;
         flex-direction: column;
