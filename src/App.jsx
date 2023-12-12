@@ -11,6 +11,7 @@ import Skills from "./components/skills/skills"
 import { ScrollToTop, drawstars } from "./components/functions"
 
 
+// this is the landing page
 const mainpage = (
   <>
     <ScrollToTop/>
