@@ -1,7 +1,6 @@
 # React + Vite
 
-Personal portfolio build with React. 
-Still under construction, but early version can be found at. Not yet fully mobile-friendly 
+Personal portfolio build with React. Hosted on github webpages.
 
 
 https://jimpsoni.github.io/PortfolioWebPage/
