@@ -10,8 +10,8 @@ const AboutMe = () => {
           <h2 className='subheading'>About me</h2>
 
           <p className='sectionText'>
-            Second-year student at the University of Jyväskylä, diving into the
-            world of computer science. I am 22 years old, I love playing disc
+            Third-year student at the University of Jyväskylä, diving into the
+            world of computer science. I am 23 years old, I love playing disc
             golf and love to learn new technologies. Currently tinkering with
             arduino projects
           </p>
