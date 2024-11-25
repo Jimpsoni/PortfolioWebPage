@@ -6,7 +6,7 @@ const AboutMe = () => {
       <section id='aboutmeContent'>
         <div id='textContent'>
           <h1 id='mainHeader'>Hello! I am Jimi Jukkala</h1>
-          <h2 id='me'>Second-year student at the University of Jyväskylä</h2>
+          <h2 id='me'>Third-year student at the University of Jyväskylä</h2>
           <h2 className='subheading'>About me</h2>
 
           <p className='sectionText'>
